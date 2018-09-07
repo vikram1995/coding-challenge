@@ -1,0 +1,154 @@
+/* set up */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: #fff;
+    font-family:'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/*--------------------*/
+/*---header-----------*/
+
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.6)),url(image/jeshoots-com-219386-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    
+}
+
+/*--------------------*/
+/*---text contents-----------*/
+
+.hero-text{
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+h1{
+    font-weight: 300;
+    color: #1e90ff;
+    font-size: 200%;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    
+    
+}
+.top-para{
+    font-size: 80%;
+    margin-bottom: -20px;
+    color: #99cbed;
+}
+.para{
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-size: 110%;
+}
+
+/*--------------------*/
+/*---FORM AND BUTTONS-----------*/
+.io {
+    margin-top: 50px;
+}
+
+input {
+    padding: 5px;
+    border: none;
+    border-radius: 2px;
+}
+.btn{
+    padding: 5px;
+    border-radius: 5px;
+    background-color:orange;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+::placeholder{
+    font-size: 80%;
+}
+.inside-btn {
+    font-size:80%
+}
+.login-btn {
+    border: none;
+    padding: 5px 20px;
+    border-radius: 5px;
+    background: white;
+    cursor: pointer;
+    
+}
+
+.demo{
+    margin-left: 20px;
+}
+
+/*--------------------*/
+/*---NAVIGATION BAR-----------*/
+
+
+.logo {
+    width:auto;
+    height: 50px;
+    margin-top: 10px;
+    
+}
+
+    
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-right: 200px;
+    margin-top: 20px;
+}
+.main-nav li{
+    display: inline-block;
+    margin-left: 40px;
+}
+.main-nav li a{
+    color: #5faee3;
+    text-decoration: none;
+    font-size: 90%;
+}
+
+.login {
+    float: right;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.login li{
+    display: inline-block;
+}
+
+.logo-name {
+    float: right;
+    list-style: none;
+    margin-top: 20px;
+    margin-right: 60px;
+    font-weight: 400;
+    font-size: 110%;
+    color: #2487c9;
+}
+
+
+
